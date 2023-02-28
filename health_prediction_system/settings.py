@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-$+xyni+oo_u+l=8404(la@&b0tia7rv!)rk8whhfqvko$aio!z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['health-prediction-system.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django_unused_media',  
+    'django.contrib.sessions',  
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
